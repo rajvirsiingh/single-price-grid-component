@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+body {
+  background-color: hsl(204, 43%, 95%);
+  font-family: "karla", sans-serif;
+}
+h1 {
+  color: hsl(179, 62%, 43%);
+}
+h3 {
+  color: hsl(71, 73%, 54%);
+}
+p {
+  font-size: 16px;
+}
+button {
+  border-style: none;
+  background-color: hsl(71, 73%, 54%);
+  width: 100%;
+  padding: 15px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 25px;
+  box-shadow: 2px 5px 10px 10px rgb(0 0 0 / 0.2);
+}
+
+.card {
+  border-radius: 15px;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.row-1 {
+  width: 695px;
+  padding: 50px;
+  background-color: white;
+  border-radius: 15px 15px 0 0;
+  margin: 75px 0 0 0;
+}
+
+.col {
+  width: 320px;
+  height: 300px;
+  padding: 30px;
+  display: inline-block;
+  margin: 0;
+  color: #fff;
+}
+.col span {
+  font-weight: 700;
+  font-size: 36px;
+}
+.col-1 {
+  background-color: hsl(179, 62%, 43%);
+  border-radius: 0 0 0 15px;
+  position: relative;
+}
+.col-2 {
+  background-color: hsl(179, 62%, 55%);
+  position: relative;
+  right: 5px;
+  bottom: 22px;
+  padding-right: 65px;
+  border-radius: 0 0 15px 0;
+}
+.row p {
+  color: hsl(218, 22%, 67%);
+}
+@media (max-width: 800px) {
+  .card {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .text {
+    width: 80%;
+  }
+  .row,
+  .row-2 {
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 0;
+  }
+  .col {
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    right: 0;
+  }
+  .col-2 {
+    border-radius: 0 0 15px 15px;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
